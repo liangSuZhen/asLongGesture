@@ -7,6 +7,8 @@
 //
 
 #import "LSZViewController.h"
+#import "LSZNew/UIView+WT.h"
+
 
 @interface LSZViewController ()
 
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.view tapGesture:^(UIGestureRecognizer *ges) {
+        NSLog(@"1111");
+    }];
 }
 
 - (void)didReceiveMemoryWarning

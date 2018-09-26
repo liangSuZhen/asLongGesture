@@ -1,0 +1,6 @@
+framework module LSZNew {
+  umbrella header "LSZNew-umbrella.h"
+
+  export *
+  module * { export * }
+}

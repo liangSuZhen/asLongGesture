@@ -1,0 +1,22 @@
+{
+  "name": "LSZNew",
+  "version": "0.1.0",
+  "summary": "A short description of LSZNew.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/13223711282/LSZNew",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "13223711282": "3284609080@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/13223711282/LSZNew.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LSZNew/Classes/**/*"
+}
