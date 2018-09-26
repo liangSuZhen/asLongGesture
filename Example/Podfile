@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LSZNew_Example' do
+  pod 'LSZNew', :path => '../'
+
+  target 'LSZNew_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
